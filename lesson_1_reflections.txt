@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Viewing a diff between two versions of a file helped me see the bug because it showed where the differences were in the two files. Instead of looking through and comparing every single line of code, I was able to quickly jump to a place where the error MIGHT be. This significantly sped up the process of finding the typo.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+This would make you a more efficient programmer because you wouldn't have to remember all of the changes that you made and fix them manually. You could either manually view previous versions and compare all of that code to the current version to see what changes you made, or (as I am learning) you could use software to make these comparisons for you. This makes it a lot easier to find a typo or start over when you've made so many changes trying to fix something that you don't even know where you're at anymore. It is kind of like restoring an operating system to a previous version when it is not working properly.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+I think there are many pros of manually choosing when to create a commit, and not many cons. First of all, choosing when to create a commit allows you to logically break up your work after each change. This makes the log of changes a lot easier to read through because it is split up logically and makes more sense. It must be difficult to find a specific change in programs like Google Docs where changes are automatically saved at random times. 
+
+Another good reason to choose your own commits is that you can save as often as you like. You don't have any control over when Google Docs decides to save your work, but when you choose your own commits you can ensure that everything is saved.
+
+The only con that I can think of for choosing your own commits is that it leaves some room for human error. If you are working on something and stop to eat dinner or work out, you may forget to save, or worse, decide to risk it. Then your computer could automatically run updates or something, and you lose what you were working on because you did not create a commit before you stopped.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+I think it makes sense that those two types of programs go about saving multiple files differently, because one uses automatic saving and the other lets the user choose when to save.  When you are saving something automatically, you don't really need to save more than one file, because the file is saved so often. But when you are able to choose when you save, you may change multiple files without saving, if all the changes relate logically to the same subject. Therefore when you finally decide to save, all files in the repository should be saved. 
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+For me, this is a little bit complicated because I am VERY uncomfortable in a Linux environment, but in the long run git log and git diff commands make viewing the history of files very simple. First, you can use git log to view all of the commits that have been made, with descriptions of what was done. Then, if you want to view more details and/or compare two commits, you simply use git diff followed by the id numbers of the two commits you wish to compare. This will show you all specific changes made, and make it easy to find which lines were added and deleted.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Using version control can give you confidence when making changes that could break something, because you know you can always checkout a previous version if you mess something up. You can checkout previous versions to find which commit caused the problem, and then you can use git diff to find the specific changes that might have caused it. So essentially, you don't really have to ever worry about destroying your program completely, because you can always restore it to a previous version if it is necessary.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I am basically just excited to use Git for all of my future programming projects. It adds a layer of security to your programming because basically, no matter what you do, you can't mess up anything too drastically, so you don't have to panic as often.
+
+
+What happens when you initialize a repository? Why do you need to do it?
+
+Not a whole lot happens when you initialize a repository. Git creates the repository and puts your files in it, but there are no commits yet so really not much has happened. But you need to create the repository so you can start creating commits and using Git on those files.

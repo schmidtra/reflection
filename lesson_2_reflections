@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Not a whole lot happens when you initialize a repository. Git creates the repository and puts your files in it, but there are no commits yet so really not much has happened. But you need to create the repository so you can start creating commits and using Git on those files.
